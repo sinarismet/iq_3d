@@ -21,9 +21,15 @@ app.get('/iq/securepage', function (request, res, next) {
         var ref = db.ref("iq/" + request.query.b);
         ref.once("value", function (snapshot) {
             var values = snapshot.val();
-            let change_to_form = Buffer.from(values.message, 'base64');
-            res.send(decode(change_to_form.toString('utf-8')));
-        }).catch(function (e) {
+            if (values != null) {
+                let change_to_form = Buffer.from(values.message, 'base64');
+                res.send(decode(change_to_form.toString('utf-8')));
+            }
+            else {
+               // res.send("ödeme işlemini tekrar başlatınız.");
+            }
+
+        }).error(function (e) {
             res.send("hata: " + e);
         });
     }

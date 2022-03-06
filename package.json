@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "decode-html": "^2.0.0",
+    "express": "^4.17.3",
     "firebase-admin": "^10.0.2"
   }
 }
