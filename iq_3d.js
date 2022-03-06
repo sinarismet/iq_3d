@@ -17,24 +17,23 @@ console.log("started.");
 
 app.get('/iq/securepage', function (request, res, next) {
     var threed_data = "";
-    try {
-        var ref = db.ref("iq/" + request.query.b);
-        ref.once("value", function (snapshot) {
-            var values = snapshot.val();
-            if (values != null) {
-                let change_to_form = Buffer.from(values.message, 'base64');
+    var referans = request.query.b;
+    var ref = db.ref("iq/" + request.query.b);
+
+    ref.once("value", function (snapshot) {
+        var values = snapshot.val();
+        if (values) {
+            let change_to_form = Buffer.from(values.message, 'base64');
+            ref.remove().then(() => {
                 res.send(decode(change_to_form.toString('utf-8')));
-            }
-            else {
-               // res.send("ödeme işlemini tekrar başlatınız.");
-            }
+            });
+        }
+        else {
+            res.send("Ödeme bilgileri getirilemedi");
+        }
 
-        }).error(function (e) {
-            res.send("hata: " + e);
-        });
-    }
-    catch (e) {
-        res.send("hata oluştu");
-    }
 
+    }).catch(function (e) {
+        res.send("hata: " + e);
+    });
 });
