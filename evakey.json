@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "evapay-91708",
+  "private_key_id": "5b5073036ee6075310a45071d99afd57dcd8b9ce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDYzmTTSWcapoOq\nqsjLXijGMRGDnACzGwmn90tyiW/pRKPAsXT03BT1YkqnDzB5/UOtaTrC1icmGAEO\n5tlatpA5o3Iz1imzeikfsdB/I+DAg1kez1dM/tMyygppg71ZskZk/M2q2+GROnPd\nbgXljhSSEt2aTU1vvXKTzx+vSJKQSt5ViDkEpmn5zp9FiAIivhtpK8zG5Nm6lj1o\nYYvAI8OG0T+FJPxl5KiZGhekJ9JSW9SXduRnJgeCKVdzxSfJH0OlkvKdWDsD+L6C\nyh4CGpWDq48ZPxYXedHb0QORjwNNgxCoIviqGpapVO1v6p+KUMOMsMiULCxNxLqW\npeJs2EvvAgMBAAECggEAWRH+KTGsWq4TRM/yO169OKNbEytJvEt83ZVC2VTudbK9\n5cHiD2DFeYR+sACVBWEP51PmkLojjkppUOJ1ZIfBW/Syy+oN6s7iy0Mlqb4nLWAp\nAnfjYV4FjYWk3nGBnrKXqhCUPEAmfSA7DrsPUB5dhB+dDDH7AM+fnWsIFN6nXACs\nk9GZZycC0geDD6Xj9zsBvGdn/AIs/FXNLGijDIzurmz/Dgf8jfFkbYnD528YcViA\nKKUJEOXSTUbRxoP5THrzGwfiUO1hRirsw7kpgB0LauIk8EIyp9vWcG8EkvNFamJj\nS/ebVCEaE2O0xQrJEhzCxsC1yvUvfYUPRJCmgpBfIQKBgQDw81uVuCubQyOkPHsW\nyx9bY6wELRJ+gpeEgToTiPsWED4LyjpQ3+g6GrRFOS0+XJTr2kld5kgGeVaDXfCx\nxuI2yAieCeCHZh5JVrj9mBuPT62pRoCJQ0ve2G7v9FuFHgz1oaythc12R2oclfBh\n8Uf00hEzYvDvoRa6NyPAo7dW4QKBgQDmWPuu+OZc7hs1Twyg042lOBXiP+vgQ9lN\nndzvrYUwW3wd3bc/41FZcsNFxcuOlqxONmO9CGVzB9CFspPcM7AFYMLlNH/G3YDT\nZoOBrdEazsmNgimDDwoMeSaEm7bwQJF300uarx6nYzx3AKuJWERcxRi9KaJ4qyJY\nHfrAKNaMzwKBgQCO4N/4IiPJh8CEzVB4La7EdJA2UbvbxPiwHCkiGGI7rRn9x8dY\n2c1NVzR6r/MCPcgZK3HB+qHPJPiGIZhu8u6FaYyimlzILWfcOU6tIhuFmcvyytnB\ni2RcGp9+Lrpub2lj5qEMrIEvmB12IftPONJgfIiyngMdNbrSZYwP2YUIQQKBgGLC\n9i5AE2z2vf2uRejSq6GSGXfnFjgSfyITND4jNL7WCrI3dLFUwnVKikTpGGyrV3c1\nRLAw4GZgjFw2g8Te+HJl2UoypzJZmDmLc4jvQH9w9+PPUgMaOKG+c/BZXydFV9l7\nY6gPu2HjX3JafDGoAa+Q5hl8t2drYI9NU0x+dfbrAoGBAOtIwwNwJuPxLSqIrXiF\na3MtIfIJ8GAAlXX6n7CSqqdbldUqUcId08pukHjMm+C2aQkfxja4/Il6XWx0fdN6\n0J9qc3Y3JJAllzN83vPAzJ0z2gpLQhO56LsOCVlcaCwWvZs1ulZo4WLVGAG0hVLW\nxecZ35SgM9KjnZcZoxPtm75a\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-pai0k@evapay-91708.iam.gserviceaccount.com",
+  "client_id": "106169218713681328112",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-pai0k%40evapay-91708.iam.gserviceaccount.com"
+}

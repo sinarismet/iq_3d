@@ -1,0 +1,16 @@
+{
+  "name": "iq_threed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iq_3d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node iq_3d.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decode-html": "^2.0.0",
+    "firebase-admin": "^10.0.2"
+  }
+}
